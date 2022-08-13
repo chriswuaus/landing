@@ -30,23 +30,37 @@ ul {
 }
 h1 {
   color: #f9faf8;
+  font-size: 48px;
 }
 
 .content {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
-  padding: 50px 10%;
+  padding: 100px 10%;
 }
 .subtext {
   color: #e5e7eb;
   font-size: 18px;
-  width: 30%;
-  box-sizing: border-box;
+}
+.words {
+  width: 43%;
 }
 
 .content .img {
-  background-color: #cfd0d3;
+  display: flex;
+  background-color: #9e9e9ee1;
   color: #f9faf8;
-  /* width: 30%; */
+  width: 43%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign {
+  color: #f9faf8;
+  background: #3882f6;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
 }
